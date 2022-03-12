@@ -1,0 +1,13 @@
+body {
+  font-family: Lato;
+}
+a {
+  display: block;
+  padding: 5px;
+}
+
+.displayBoxes {
+  display: grid;
+  grid-template-columns: repeat(5,3em);
+  grid-gap: 5px;
+}
